@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  dockerestudo:
+    image: fiuc-backend-adm
+    build:
+      context: .
+    ports:
+      - "5000:5000"
