@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\santo\\source\\repos\\AppApsnetCoreTP\\AppApsnetCoreTP\\basecs.csproj": {}
+    "C:\\Users\\profe\\source\\repos\\ProjetoTP\\AppApsnetCoreTP\\backend\\basecs.csproj": {}
   },
   "projects": {
-    "C:\\Users\\santo\\source\\repos\\AppApsnetCoreTP\\AppApsnetCoreTP\\basecs.csproj": {
+    "C:\\Users\\profe\\source\\repos\\ProjetoTP\\AppApsnetCoreTP\\backend\\basecs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\santo\\source\\repos\\AppApsnetCoreTP\\AppApsnetCoreTP\\basecs.csproj",
+        "projectUniqueName": "C:\\Users\\profe\\source\\repos\\ProjetoTP\\AppApsnetCoreTP\\backend\\basecs.csproj",
         "projectName": "basecs",
-        "projectPath": "C:\\Users\\santo\\source\\repos\\AppApsnetCoreTP\\AppApsnetCoreTP\\basecs.csproj",
-        "packagesPath": "C:\\Users\\santo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\santo\\source\\repos\\AppApsnetCoreTP\\AppApsnetCoreTP\\obj\\",
+        "projectPath": "C:\\Users\\profe\\source\\repos\\ProjetoTP\\AppApsnetCoreTP\\backend\\basecs.csproj",
+        "packagesPath": "C:\\Users\\profe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\profe\\source\\repos\\ProjetoTP\\AppApsnetCoreTP\\backend\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\santo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\profe\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
