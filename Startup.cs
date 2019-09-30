@@ -38,8 +38,8 @@ namespace basecs
                     .AllowCredentials()));
 
             // Serviços
-            services.AddScoped<LivrosServico>();
-            services.AddScoped<AutoresServico>();
+            services.AddScoped<BlServico>();
+            services.AddScoped<ContainerServico>();
 
             services.Configure<AppSettings>(Configuration.GetSection("AppSettings"));
 

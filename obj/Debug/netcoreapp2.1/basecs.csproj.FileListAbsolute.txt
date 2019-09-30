@@ -1,0 +1,14 @@
+C:\Users\santo\source\repos\AppApsnetCoreTP\AppApsnetCoreTP\obj\Debug\netcoreapp2.1\basecs.csprojAssemblyReference.cache
+C:\Users\santo\source\repos\AppApsnetCoreTP\AppApsnetCoreTP\obj\Debug\netcoreapp2.1\basecs.csproj.CoreCompileInputs.cache
+C:\Users\santo\source\repos\AppApsnetCoreTP\AppApsnetCoreTP\obj\Debug\netcoreapp2.1\basecs.RazorAssemblyInfo.cache
+C:\Users\santo\source\repos\AppApsnetCoreTP\AppApsnetCoreTP\obj\Debug\netcoreapp2.1\basecs.RazorAssemblyInfo.cs
+C:\Users\santo\source\repos\AppApsnetCoreTP\AppApsnetCoreTP\obj\Debug\netcoreapp2.1\basecs.AssemblyInfoInputs.cache
+C:\Users\santo\source\repos\AppApsnetCoreTP\AppApsnetCoreTP\obj\Debug\netcoreapp2.1\basecs.AssemblyInfo.cs
+C:\Users\santo\source\repos\AppApsnetCoreTP\AppApsnetCoreTP\bin\Debug\netcoreapp2.1\basecs.deps.json
+C:\Users\santo\source\repos\AppApsnetCoreTP\AppApsnetCoreTP\bin\Debug\netcoreapp2.1\basecs.runtimeconfig.json
+C:\Users\santo\source\repos\AppApsnetCoreTP\AppApsnetCoreTP\bin\Debug\netcoreapp2.1\basecs.runtimeconfig.dev.json
+C:\Users\santo\source\repos\AppApsnetCoreTP\AppApsnetCoreTP\bin\Debug\netcoreapp2.1\basecs.dll
+C:\Users\santo\source\repos\AppApsnetCoreTP\AppApsnetCoreTP\bin\Debug\netcoreapp2.1\basecs.pdb
+C:\Users\santo\source\repos\AppApsnetCoreTP\AppApsnetCoreTP\obj\Debug\netcoreapp2.1\basecs.RazorTargetAssemblyInfo.cache
+C:\Users\santo\source\repos\AppApsnetCoreTP\AppApsnetCoreTP\obj\Debug\netcoreapp2.1\basecs.dll
+C:\Users\santo\source\repos\AppApsnetCoreTP\AppApsnetCoreTP\obj\Debug\netcoreapp2.1\basecs.pdb
