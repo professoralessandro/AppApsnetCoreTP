@@ -10,7 +10,7 @@ go
 USE portoAle
 go
 
-CREATE TABLE Bl
+CREATE TABLE Bls
 (
 	blId int primary key identity,
 	numero int,
@@ -19,7 +19,7 @@ CREATE TABLE Bl
 )
 go
 
-CREATE TABLE Container
+CREATE TABLE Containers
 (
 	containerId int primary key identity,
 	numero int,
@@ -29,11 +29,11 @@ CREATE TABLE Container
 )
 GO
 
-INSERT INTO bl(numero, consignee, navio) VALUES(100, 'ECO Porto', 'Costa do atlantico'),
+INSERT INTO bls(numero, consignee, navio) VALUES(100, 'ECO Porto', 'Costa do atlantico'),
 (15, 'ECO Porto', 'Costa do atlantico'),
 (25, 'DPWorld', 'Costa do atlantico')
 GO
 
-INSERT INTO Container(numero, tipo, tamanho, blId) VALUES(55, 'C54', 10.00, 1),
+INSERT INTO Containers(numero, tipo, tamanho, blId) VALUES(55, 'C54', 10.00, 1),
 (55, 'C54', 15.00, 1)
 GO
