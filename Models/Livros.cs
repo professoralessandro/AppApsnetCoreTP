@@ -1,23 +1,31 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace basecs.Models
 {
-    public class Livros
+    public partial class Livros
     {
-        [Key]
-        public Int32 LivroId { get; set; }
+        #region CONSTRUTOR
+        public Livros()
+        {
+            Autores = new HashSet<Autores>();
+            Listas = new HashSet<Listas>();
+        }
+        #endregion
 
-        public String nome { get; set; }
+        #region ATRIBUTOS
+        public int Id { get; set; }
+        public string Titulo { get; set; }
+        public string Subtitulo { get; set; }
+        public string Autor { get; set; }
+        public string Resumo { get; set; }
+        public string Capa { get; set; }
+        public int? Quantidade { get; set; }
+        #endregion
 
-        public String autor { get; set; }
-
-        public Decimal preco { get; set; }
-
-        public Int32 quantidade { get; set; }
-
+        #region IMPORTS
+        public ICollection<Autores> Autores { get; set; }
+        public ICollection<Listas> Listas { get; set; }
+        #endregion
     }
 }

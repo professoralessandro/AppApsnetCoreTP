@@ -1,23 +1,24 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace basecs.Models
 {
-    public class Autores
+    public partial class Autores
     {
+        #region ATRIBUTOS
         [Key]
-        public Int32 AutorId { get; set; }
+        public int AutorId { get; set; }
+        public string Nome { get; set; }
+        public string Email { get; set; }
+        public string Genero { get; set; }
+        [ForeignKey("LivroId")]
+        public int? LivroId { get; set; }
+        #endregion
 
-        public String Nome { get; set; }
-
-        public String Email { get; set; }
-
-        public String Genero { get; set; }
-
-        public Int32 LivroId { get; set; }
-
+        #region IMPORTS
+        public Livros Livro { get; set; }
+        #endregion
     }
 }

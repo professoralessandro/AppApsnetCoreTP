@@ -2,10 +2,12 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 using basecs.Auxiliar.Padroes;
 using basecs.Data;
 using basecs.Models;
 using basecs.Services;
+using Microsoft.EntityFrameworkCore;
 
 namespace basecs.Services
 {
@@ -18,28 +20,31 @@ namespace basecs.Services
             _context = context;
         }
 
-        public Livros FindLivrosByLivrosId(int livroId)
+        public async Task<Livros> FindLivrosByLivrosId(int id)
         {
             try
             {
-                return this._context.Livros.SingleOrDefault(c => c.LivroId == livroId);
+                return await this._context.Livros.SingleOrDefaultAsync(c => c.Id == id);
             }
             catch (Exception ex)
             {
                 throw new Exception("Houve um erro ao buscar o Livro." + ex.Message);
             }
         }
-        public List<Livros> ReturnListLivrosWithParameters(
-        int? livroId,
-        string autor
-        )
+        public async Task<List<Livros>> ReturnListLivrosWithParameters(
+            int? id,
+            string titulo,
+            string autor
+            )
         {
             try
             {
                 autor = "";
 
-                List<Livros> lstLivros = _context.Livros.Where(c => (c.LivroId == livroId || livroId == null) &&
-                   (c.autor.Contains(autor) || autor == null)).ToList();
+                List<Livros> lstLivros = await _context.Livros.Where(c => (c.Id == id || id == null) &&
+                   (c.Titulo.Contains(titulo) || titulo == null) &&
+                   (c.Autor.Contains(autor) || autor == null)
+                   ).ToListAsync();
 
                 return lstLivros;
             }
@@ -50,14 +55,14 @@ namespace basecs.Services
 
         }
 
-        public Livros UpdateLivro(Livros livro)
+        public async Task<Livros> UpdateLivro(Livros livro)
         {
             try
             {
-                if (livro.LivroId == 0)
+                if (livro.Id == 0)
                     throw new KeyNotFoundException("LivroId");
                 this._context.Update(livro);
-                this._context.SaveChanges();
+                await this._context.SaveChangesAsync();
                 return livro;
             }
             catch (KeyNotFoundException key)
@@ -69,20 +74,14 @@ namespace basecs.Services
                 throw new Exception("Houve um erro ao tentar editar o registro: " + ex.Message);
             }
         }
-        public Livros InsertLivro(Livros livros)
+        public async Task<Livros> InsertLivro(Livros livros)
         {
             try
             {
                 using (var context = this._context)
                 {
-                    /*
-                    if (sede.Imagem != null && sede.Imagem.Trim() != string.Empty)
-                    {
-                        sede.Imagem = common.Base64ToFile(sede.Imagem);
-                    }
-                    */
                     context.Livros.Add(livros);
-                    context.SaveChanges();
+                    await context.SaveChangesAsync();
                     return livros;
                 }
             }
@@ -91,18 +90,21 @@ namespace basecs.Services
                 throw new Exception("Houve um erro ao incluir Livro: " + ex.Message);
             }
         }
-        /*
-        public void DeleteLivro(int livroId)
+        public async Task<Livros> DeleteLivro(int id)
         {
             try
             {
-                if (livroId == 0)
+                if (id == 0)
                     throw new KeyNotFoundException("Livro");
 
-                Livros livros = this.FindLivrosByLivrosId(livroId);
-                livros.Ativo = false;
+                Livros livros = await this.FindLivrosByLivrosId(id);
 
-                this.UpdateLivro(livros);
+                using (var context = this._context)
+                {
+                    context.Livros.Remove(livros);
+                    await context.SaveChangesAsync();
+                    return livros;
+                }
             }
             catch (KeyNotFoundException key)
             {
@@ -113,6 +115,5 @@ namespace basecs.Services
                 throw new Exception("Houve um erro ao tentar deletar o registro: " + ex.Message);
             }
         }
-        */
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\profe\\source\\repos\\ProjetoTP\\AppApsnetCoreTP\\backend\\basecs.csproj": {}
+    "C:\\Users\\profe\\source\\repos\\ProjetoTP\\AppApsnetCoreTP - 4\\backend\\basecs.csproj": {}
   },
   "projects": {
-    "C:\\Users\\profe\\source\\repos\\ProjetoTP\\AppApsnetCoreTP\\backend\\basecs.csproj": {
+    "C:\\Users\\profe\\source\\repos\\ProjetoTP\\AppApsnetCoreTP - 4\\backend\\basecs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\profe\\source\\repos\\ProjetoTP\\AppApsnetCoreTP\\backend\\basecs.csproj",
+        "projectUniqueName": "C:\\Users\\profe\\source\\repos\\ProjetoTP\\AppApsnetCoreTP - 4\\backend\\basecs.csproj",
         "projectName": "basecs",
-        "projectPath": "C:\\Users\\profe\\source\\repos\\ProjetoTP\\AppApsnetCoreTP\\backend\\basecs.csproj",
+        "projectPath": "C:\\Users\\profe\\source\\repos\\ProjetoTP\\AppApsnetCoreTP - 4\\backend\\basecs.csproj",
         "packagesPath": "C:\\Users\\profe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\profe\\source\\repos\\ProjetoTP\\AppApsnetCoreTP\\backend\\obj\\",
+        "outputPath": "C:\\Users\\profe\\source\\repos\\ProjetoTP\\AppApsnetCoreTP - 4\\backend\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -62,6 +62,7 @@
               "version": "[2.1.1, )"
             },
             "Microsoft.NETCore.App": {
+              "suppressParent": "All",
               "target": "Package",
               "version": "[2.1.0, )",
               "autoReferenced": true

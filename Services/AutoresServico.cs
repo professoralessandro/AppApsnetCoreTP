@@ -2,10 +2,12 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 using basecs.Auxiliar.Padroes;
 using basecs.Data;
 using basecs.Models;
 using basecs.Services;
+using Microsoft.EntityFrameworkCore;
 
 namespace basecs.Services
 {
@@ -18,18 +20,18 @@ namespace basecs.Services
             _context = context;
         }
 
-        public Autores FindAutoresByAutoresId(int autorId)
+        public async Task<Autores> FindAutoresByAutoresId(int autorId)
         {
             try
             {
-                return this._context.Autores.SingleOrDefault(c => c.AutorId == autorId);
+                return await this._context.Autores.SingleOrDefaultAsync(c => c.AutorId == autorId);
             }
             catch (Exception ex)
             {
                 throw new Exception("Houve um erro ao buscar o Autor." + ex.Message);
             }
         }
-        public List<Autores> ReturnListAutoresWithParameters(
+        public async Task<List<Autores>> ReturnListAutoresWithParameters(
         Int32? autorId,
         string nome,
         string email)
@@ -37,9 +39,9 @@ namespace basecs.Services
             try
             {
 
-                List<Autores> lstAutores = _context.Autores.Where(c => (c.AutorId == autorId || autorId == null) &&
+                List<Autores> lstAutores = await _context.Autores.Where(c => (c.AutorId == autorId || autorId == null) &&
                    (c.Nome.Contains(nome) || nome == null) &&
-                   (c.Email.Contains(email) || email == null)).ToList();
+                   (c.Email.Contains(email) || email == null)).ToListAsync();
 
                 return lstAutores;
             }
@@ -50,14 +52,14 @@ namespace basecs.Services
 
         }
 
-        public Autores UpdateAutor(Autores autor)
+        public async Task<Autores> UpdateAutor(Autores autor)
         {
             try
             {
                 if (autor.AutorId == 0)
                     throw new KeyNotFoundException("AutorId");
                 this._context.Update(autor);
-                this._context.SaveChanges();
+                await this._context.SaveChangesAsync();
                 return autor;
             }
             catch (KeyNotFoundException key)
@@ -69,20 +71,14 @@ namespace basecs.Services
                 throw new Exception("Houve um erro ao tentar editar o registro: " + ex.Message);
             }
         }
-        public Autores InsertAutor(Autores autors)
+        public async Task<Autores> InsertAutor(Autores autors)
         {
             try
             {
                 using (var context = this._context)
                 {
-                    /*
-                    if (sede.Imagem != null && sede.Imagem.Trim() != string.Empty)
-                    {
-                        sede.Imagem = common.Base64ToFile(sede.Imagem);
-                    }
-                    */
                     context.Autores.Add(autors);
-                    context.SaveChanges();
+                    await context.SaveChangesAsync();
                     return autors;
                 }
             }
@@ -91,18 +87,21 @@ namespace basecs.Services
                 throw new Exception("Houve um erro ao incluir Autor: " + ex.Message);
             }
         }
-        /*
-        public void DeleteAutor(int autorId)
+        public async Task<Autores> DeleteAutor(int id)
         {
             try
             {
-                if (autorId == 0)
+                if (id == 0)
                     throw new KeyNotFoundException("Autor");
 
-                Autores autors = this.FindAutoresByAutoresId(autorId);
-                autors.Ativo = false;
+                Autores autor = await this.FindAutoresByAutoresId(id);
 
-                this.UpdateAutor(autors);
+                using (var context = this._context)
+                {
+                    context.Autores.Remove(autor);
+                    await context.SaveChangesAsync();
+                    return autor;
+                }
             }
             catch (KeyNotFoundException key)
             {
@@ -113,6 +112,5 @@ namespace basecs.Services
                 throw new Exception("Houve um erro ao tentar deletar o registro: " + ex.Message);
             }
         }//DELETAR
-        */
     }
 }

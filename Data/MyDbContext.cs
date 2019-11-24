@@ -14,6 +14,7 @@ namespace basecs.Data
         //Tabelas
         public DbSet<Livros> Livros { get; set; }
         public DbSet<Autores> Autores { get; set; }
+        public DbSet<Listas> Listas { get; set; }
 
 
         public MyDbContext(DbContextOptions options) :
