@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 
-namespace basecs.scaffold
+namespace basecs.Scaffold
 {
     public partial class BibliotecaNewContext : DbContext
     {
@@ -18,13 +18,15 @@ namespace basecs.scaffold
         public virtual DbSet<Autores> Autores { get; set; }
         public virtual DbSet<Listas> Listas { get; set; }
         public virtual DbSet<Livros> Livros { get; set; }
+        public virtual DbSet<Produto> Produto { get; set; }
+        public virtual DbSet<Usuario> Usuario { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
-                optionsBuilder.UseSqlServer("Server=.\\;Database=BibliotecaNew;Trusted_Connection=True;");
+                optionsBuilder.UseSqlServer("Server=localhost;Database=BibliotecaNew;Integrated Security=True;");
             }
         }
 
@@ -101,6 +103,42 @@ namespace basecs.scaffold
 
                 entity.Property(e => e.Titulo)
                     .HasColumnName("titulo")
+                    .IsUnicode(false);
+            });
+
+            modelBuilder.Entity<Produto>(entity =>
+            {
+                entity.Property(e => e.Id).HasColumnName("id");
+
+                entity.Property(e => e.Ativo).HasColumnName("ativo");
+
+                entity.Property(e => e.IdUsuarioCadastro).HasColumnName("idUsuarioCadastro");
+
+                entity.Property(e => e.IdUsuarioUpdate).HasColumnName("idUsuarioUpdate");
+
+                entity.Property(e => e.Nome)
+                    .HasColumnName("nome")
+                    .HasMaxLength(60)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.Preco)
+                    .HasColumnName("preco")
+                    .HasColumnType("decimal(10, 2)");
+            });
+
+            modelBuilder.Entity<Usuario>(entity =>
+            {
+                entity.Property(e => e.Id).HasColumnName("id");
+
+                entity.Property(e => e.Ativo).HasColumnName("ativo");
+
+                entity.Property(e => e.Nome)
+                    .HasColumnName("nome")
+                    .HasMaxLength(60)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.Senha)
+                    .HasColumnName("senha")
                     .IsUnicode(false);
             });
         }

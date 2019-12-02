@@ -41,6 +41,8 @@ namespace basecs
             services.AddScoped<LivrosServico>();
             services.AddScoped<AutoresServico>();
             services.AddScoped<ListasServico>();
+            services.AddScoped<UsuarioServico>();
+            services.AddScoped<ProdutoServico>();
 
             services.Configure<AppSettings>(Configuration.GetSection("AppSettings"));
 

@@ -12,6 +12,15 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Include="Scaffold\Autores.cs" />
+    <Compile Include="Scaffold\BibliotecaNewContext.cs" />
+    <Compile Include="Scaffold\Listas.cs" />
+    <Compile Include="Scaffold\Livros.cs" />
+    <Compile Include="Scaffold\Produto.cs" />
+    <Compile Include="Scaffold\Usuario.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Images\" />
     <Folder Include="wwwroot\" />
   </ItemGroup>

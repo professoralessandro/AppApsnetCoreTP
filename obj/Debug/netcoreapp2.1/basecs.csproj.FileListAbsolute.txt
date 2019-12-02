@@ -26,3 +26,21 @@ C:\Users\profe\source\repos\ProjetoTP\AppApsnetCoreTP - 4\backend\obj\Debug\netc
 C:\Users\profe\source\repos\ProjetoTP\AppApsnetCoreTP - 4\backend\obj\Debug\netcoreapp2.1\basecs.RazorTargetAssemblyInfo.cache
 C:\Users\profe\source\repos\ProjetoTP\AppApsnetCoreTP - 4\backend\obj\Debug\netcoreapp2.1\basecs.dll
 C:\Users\profe\source\repos\ProjetoTP\AppApsnetCoreTP - 4\backend\obj\Debug\netcoreapp2.1\basecs.pdb
+C:\Users\profe\source\repos\ProjetoTP\Prova02\backend\bin\Debug\netcoreapp2.1\web.config
+C:\Users\profe\source\repos\ProjetoTP\Prova02\backend\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\profe\source\repos\ProjetoTP\Prova02\backend\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\profe\source\repos\ProjetoTP\Prova02\backend\bin\Debug\netcoreapp2.1\package-lock.json
+C:\Users\profe\source\repos\ProjetoTP\Prova02\backend\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\profe\source\repos\ProjetoTP\Prova02\backend\bin\Debug\netcoreapp2.1\basecs.deps.json
+C:\Users\profe\source\repos\ProjetoTP\Prova02\backend\bin\Debug\netcoreapp2.1\basecs.runtimeconfig.json
+C:\Users\profe\source\repos\ProjetoTP\Prova02\backend\bin\Debug\netcoreapp2.1\basecs.runtimeconfig.dev.json
+C:\Users\profe\source\repos\ProjetoTP\Prova02\backend\bin\Debug\netcoreapp2.1\basecs.dll
+C:\Users\profe\source\repos\ProjetoTP\Prova02\backend\bin\Debug\netcoreapp2.1\basecs.pdb
+C:\Users\profe\source\repos\ProjetoTP\Prova02\backend\obj\Debug\netcoreapp2.1\basecs.csprojAssemblyReference.cache
+C:\Users\profe\source\repos\ProjetoTP\Prova02\backend\obj\Debug\netcoreapp2.1\basecs.RazorAssemblyInfo.cache
+C:\Users\profe\source\repos\ProjetoTP\Prova02\backend\obj\Debug\netcoreapp2.1\basecs.RazorAssemblyInfo.cs
+C:\Users\profe\source\repos\ProjetoTP\Prova02\backend\obj\Debug\netcoreapp2.1\basecs.AssemblyInfoInputs.cache
+C:\Users\profe\source\repos\ProjetoTP\Prova02\backend\obj\Debug\netcoreapp2.1\basecs.AssemblyInfo.cs
+C:\Users\profe\source\repos\ProjetoTP\Prova02\backend\obj\Debug\netcoreapp2.1\basecs.RazorTargetAssemblyInfo.cache
+C:\Users\profe\source\repos\ProjetoTP\Prova02\backend\obj\Debug\netcoreapp2.1\basecs.dll
+C:\Users\profe\source\repos\ProjetoTP\Prova02\backend\obj\Debug\netcoreapp2.1\basecs.pdb

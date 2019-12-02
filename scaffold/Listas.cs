@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace basecs.scaffold
+namespace basecs.Scaffold
 {
     public partial class Listas
     {
