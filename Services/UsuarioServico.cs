@@ -53,6 +53,27 @@ namespace basecs.Services
 
         }
 
+        public async Task<Usuario> AuthUsuario(
+            string nome,
+            string senha
+            )
+        {
+            try
+            {
+                Usuario usuario = await _context.Usuarios.Where(c =>
+                   (c.Nome.Contains(nome)) &&
+                   (c.Senha.Contains(senha))
+                   ).FirstOrDefaultAsync();
+
+                return usuario;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Não foi possível realizar a busca por Usuario: " + ex.Message);
+            }
+
+        }
+
         public async Task<Usuario> UpdateUsuario(Usuario usuario)
         {
             try

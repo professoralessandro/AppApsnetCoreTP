@@ -43,6 +43,7 @@ namespace basecs
             services.AddScoped<ListasServico>();
             services.AddScoped<UsuarioServico>();
             services.AddScoped<ProdutoServico>();
+            services.AddScoped<LoginServico>();
 
             services.Configure<AppSettings>(Configuration.GetSection("AppSettings"));
 
