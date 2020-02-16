@@ -16,6 +16,7 @@ using Newtonsoft.Json.Serialization;
 
 namespace basecs
 {
+    //TESTEWHORKHOME
     public class Startup
     {
         public Startup(IConfiguration configuration)
