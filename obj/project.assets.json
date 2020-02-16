@@ -12914,11 +12914,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Program Files (x86)\\Jenkins\\workspace\\backend-SW2\\basecs.csproj",
+      "projectUniqueName": "C:\\Users\\profe\\source\\repos\\Pessoais\\AppApsnetCoreTP\\basecs.csproj",
       "projectName": "basecs",
-      "projectPath": "C:\\Program Files (x86)\\Jenkins\\workspace\\backend-SW2\\basecs.csproj",
+      "projectPath": "C:\\Users\\profe\\source\\repos\\Pessoais\\AppApsnetCoreTP\\basecs.csproj",
       "packagesPath": "C:\\Users\\profe\\.nuget\\packages\\",
-      "outputPath": "C:\\Program Files (x86)\\Jenkins\\workspace\\backend-SW2\\obj\\",
+      "outputPath": "C:\\Users\\profe\\source\\repos\\Pessoais\\AppApsnetCoreTP\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "F:\\Microsoft\\Xamarin\\NuGet\\",
