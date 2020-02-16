@@ -1,14 +1,18 @@
-C:\Users\santo\source\repos\AppApsnetCoreTP\AppApsnetCoreTP\obj\Debug\netcoreapp2.1\basecs.csprojAssemblyReference.cache
-C:\Users\santo\source\repos\AppApsnetCoreTP\AppApsnetCoreTP\obj\Debug\netcoreapp2.1\basecs.csproj.CoreCompileInputs.cache
-C:\Users\santo\source\repos\AppApsnetCoreTP\AppApsnetCoreTP\obj\Debug\netcoreapp2.1\basecs.RazorAssemblyInfo.cache
-C:\Users\santo\source\repos\AppApsnetCoreTP\AppApsnetCoreTP\obj\Debug\netcoreapp2.1\basecs.RazorAssemblyInfo.cs
-C:\Users\santo\source\repos\AppApsnetCoreTP\AppApsnetCoreTP\obj\Debug\netcoreapp2.1\basecs.AssemblyInfoInputs.cache
-C:\Users\santo\source\repos\AppApsnetCoreTP\AppApsnetCoreTP\obj\Debug\netcoreapp2.1\basecs.AssemblyInfo.cs
-C:\Users\santo\source\repos\AppApsnetCoreTP\AppApsnetCoreTP\bin\Debug\netcoreapp2.1\basecs.deps.json
-C:\Users\santo\source\repos\AppApsnetCoreTP\AppApsnetCoreTP\bin\Debug\netcoreapp2.1\basecs.runtimeconfig.json
-C:\Users\santo\source\repos\AppApsnetCoreTP\AppApsnetCoreTP\bin\Debug\netcoreapp2.1\basecs.runtimeconfig.dev.json
-C:\Users\santo\source\repos\AppApsnetCoreTP\AppApsnetCoreTP\bin\Debug\netcoreapp2.1\basecs.dll
-C:\Users\santo\source\repos\AppApsnetCoreTP\AppApsnetCoreTP\bin\Debug\netcoreapp2.1\basecs.pdb
-C:\Users\santo\source\repos\AppApsnetCoreTP\AppApsnetCoreTP\obj\Debug\netcoreapp2.1\basecs.RazorTargetAssemblyInfo.cache
-C:\Users\santo\source\repos\AppApsnetCoreTP\AppApsnetCoreTP\obj\Debug\netcoreapp2.1\basecs.dll
-C:\Users\santo\source\repos\AppApsnetCoreTP\AppApsnetCoreTP\obj\Debug\netcoreapp2.1\basecs.pdb
+C:\Program Files (x86)\Jenkins\workspace\backend-SW2\bin\Debug\netcoreapp2.1\web.config
+C:\Program Files (x86)\Jenkins\workspace\backend-SW2\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Program Files (x86)\Jenkins\workspace\backend-SW2\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Program Files (x86)\Jenkins\workspace\backend-SW2\bin\Debug\netcoreapp2.1\package-lock.json
+C:\Program Files (x86)\Jenkins\workspace\backend-SW2\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Program Files (x86)\Jenkins\workspace\backend-SW2\bin\Debug\netcoreapp2.1\basecs.deps.json
+C:\Program Files (x86)\Jenkins\workspace\backend-SW2\bin\Debug\netcoreapp2.1\basecs.runtimeconfig.json
+C:\Program Files (x86)\Jenkins\workspace\backend-SW2\bin\Debug\netcoreapp2.1\basecs.runtimeconfig.dev.json
+C:\Program Files (x86)\Jenkins\workspace\backend-SW2\bin\Debug\netcoreapp2.1\basecs.dll
+C:\Program Files (x86)\Jenkins\workspace\backend-SW2\bin\Debug\netcoreapp2.1\basecs.pdb
+C:\Program Files (x86)\Jenkins\workspace\backend-SW2\obj\Debug\netcoreapp2.1\basecs.csprojAssemblyReference.cache
+C:\Program Files (x86)\Jenkins\workspace\backend-SW2\obj\Debug\netcoreapp2.1\basecs.RazorAssemblyInfo.cache
+C:\Program Files (x86)\Jenkins\workspace\backend-SW2\obj\Debug\netcoreapp2.1\basecs.RazorAssemblyInfo.cs
+C:\Program Files (x86)\Jenkins\workspace\backend-SW2\obj\Debug\netcoreapp2.1\basecs.AssemblyInfoInputs.cache
+C:\Program Files (x86)\Jenkins\workspace\backend-SW2\obj\Debug\netcoreapp2.1\basecs.AssemblyInfo.cs
+C:\Program Files (x86)\Jenkins\workspace\backend-SW2\obj\Debug\netcoreapp2.1\basecs.RazorTargetAssemblyInfo.cache
+C:\Program Files (x86)\Jenkins\workspace\backend-SW2\obj\Debug\netcoreapp2.1\basecs.dll
+C:\Program Files (x86)\Jenkins\workspace\backend-SW2\obj\Debug\netcoreapp2.1\basecs.pdb

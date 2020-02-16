@@ -1,0 +1,6 @@
+#Arquivos de compilação.
+bin/
+.vscode/
+obj/
+Migrations/
+.vs/% 
