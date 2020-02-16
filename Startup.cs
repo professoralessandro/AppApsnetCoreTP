@@ -40,6 +40,8 @@ namespace basecs
             // Serviços
             services.AddScoped<LivrosServico>();
             services.AddScoped<AutoresServico>();
+            services.AddScoped<ContainerServico>();
+            services.AddScoped<BlServico>();
 
             services.Configure<AppSettings>(Configuration.GetSection("AppSettings"));
 
