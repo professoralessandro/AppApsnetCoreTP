@@ -16,3 +16,21 @@ C:\Program Files (x86)\Jenkins\workspace\backend-SW2\obj\Debug\netcoreapp2.1\bas
 C:\Program Files (x86)\Jenkins\workspace\backend-SW2\obj\Debug\netcoreapp2.1\basecs.RazorTargetAssemblyInfo.cache
 C:\Program Files (x86)\Jenkins\workspace\backend-SW2\obj\Debug\netcoreapp2.1\basecs.dll
 C:\Program Files (x86)\Jenkins\workspace\backend-SW2\obj\Debug\netcoreapp2.1\basecs.pdb
+C:\Users\profe\source\repos\Pessoais\AppApsnetCoreTP\bin\Debug\netcoreapp2.1\web.config
+C:\Users\profe\source\repos\Pessoais\AppApsnetCoreTP\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\profe\source\repos\Pessoais\AppApsnetCoreTP\bin\Debug\netcoreapp2.1\package-lock.json
+C:\Users\profe\source\repos\Pessoais\AppApsnetCoreTP\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\profe\source\repos\Pessoais\AppApsnetCoreTP\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\profe\source\repos\Pessoais\AppApsnetCoreTP\bin\Debug\netcoreapp2.1\basecs.deps.json
+C:\Users\profe\source\repos\Pessoais\AppApsnetCoreTP\bin\Debug\netcoreapp2.1\basecs.runtimeconfig.json
+C:\Users\profe\source\repos\Pessoais\AppApsnetCoreTP\bin\Debug\netcoreapp2.1\basecs.runtimeconfig.dev.json
+C:\Users\profe\source\repos\Pessoais\AppApsnetCoreTP\bin\Debug\netcoreapp2.1\basecs.dll
+C:\Users\profe\source\repos\Pessoais\AppApsnetCoreTP\bin\Debug\netcoreapp2.1\basecs.pdb
+C:\Users\profe\source\repos\Pessoais\AppApsnetCoreTP\obj\Debug\netcoreapp2.1\basecs.csprojAssemblyReference.cache
+C:\Users\profe\source\repos\Pessoais\AppApsnetCoreTP\obj\Debug\netcoreapp2.1\basecs.RazorAssemblyInfo.cache
+C:\Users\profe\source\repos\Pessoais\AppApsnetCoreTP\obj\Debug\netcoreapp2.1\basecs.RazorAssemblyInfo.cs
+C:\Users\profe\source\repos\Pessoais\AppApsnetCoreTP\obj\Debug\netcoreapp2.1\basecs.AssemblyInfoInputs.cache
+C:\Users\profe\source\repos\Pessoais\AppApsnetCoreTP\obj\Debug\netcoreapp2.1\basecs.AssemblyInfo.cs
+C:\Users\profe\source\repos\Pessoais\AppApsnetCoreTP\obj\Debug\netcoreapp2.1\basecs.RazorTargetAssemblyInfo.cache
+C:\Users\profe\source\repos\Pessoais\AppApsnetCoreTP\obj\Debug\netcoreapp2.1\basecs.dll
+C:\Users\profe\source\repos\Pessoais\AppApsnetCoreTP\obj\Debug\netcoreapp2.1\basecs.pdb
